@@ -1,0 +1,14 @@
+name: dart_webcrypto
+description: A wrapper of selected parts of the webcrypto API to dart
+version: 0.0.1
+author: Andreas Reiter <andreas.reiter@iaik.tugraz.at>
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  crypto: any
+  browser_detect: any
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
